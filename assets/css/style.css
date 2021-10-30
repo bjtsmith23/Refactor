@@ -52,7 +52,8 @@ p {
     font-size: 16px;
 }
 
-.hero {
+/* changed hero to topimage to be more specific */
+.topimage {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -94,7 +95,7 @@ p {
     margin-bottom: 32px;
 }
 
-#benefits h3 {
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -105,8 +106,8 @@ p {
     max-width: 150px;
 }
 
-/* I listed these classes together as they had all the same info below each. */
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+/* consolidated the 3 different sections to main section to simplify */
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -135,6 +136,6 @@ footer {
 }
 
 /* changed footer heading to h3 so that h2 could be simplied above without affecting footer */
-footer h3 {
+h4 {
     font-size: 20px;
 }
